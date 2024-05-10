@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="blue">#2E0260</color>
-    #2E0260
+    <color name="white">#EEF7FF</color>
+    <color name="blue">#0504AA</color>
+    <color name="blueforhint">#800504AA</color>
+
+    <color name="beige">#32012F</color>
+
 </resources>

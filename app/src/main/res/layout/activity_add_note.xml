@@ -6,17 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".AddNoteActivity">
 
+    <!-- Gradient Background -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background">
 
-    <TextView
-        android:id="@+id/addNoteHeading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:text="TextView" />
+        <!-- Add Note Heading -->
+        <TextView
+            android:id="@+id/addNoteHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_centerHorizontal="true"
+            android:text="Add Note 📝"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"/>
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/blue_border" />
+        <!-- Title EditText -->
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addNoteHeading"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="16dp"
+            android:hint="Enter the Title"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat"/>
+
+        <!-- Content EditText -->
+        <EditText
+            android:id="@+id/contentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@id/titleEditText"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="16dp"
+            android:hint="Enter the Description"
+            android:textColorHint="#80FFFFFF"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/montserrat"
+            android:minLines="5"
+            android:gravity="top"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contentEditText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+
+            android:backgroundTint="#7AB2B2"
+            android:elevation="4dp"
+            android:fontFamily="@font/montserrat"
+            android:text="Save"
+            android:textColor="#EEF7FF"
+            android:textSize="18sp"
+            app:iconTint="#7AB2B2" />
+    </RelativeLayout>
 </RelativeLayout>

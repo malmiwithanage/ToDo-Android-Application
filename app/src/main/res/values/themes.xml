@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryVariant">@color/blue</item>
         <item name="android:statusBarColor">@color/blue</item>
+        <item name="android:textCursorDrawable">@color/blue</item>
     </style>
 
     <style name="Theme.ToDo" parent="Base.Theme.ToDo" />
