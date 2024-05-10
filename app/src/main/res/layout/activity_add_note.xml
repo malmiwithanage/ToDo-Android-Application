@@ -37,7 +37,7 @@
             android:background="@drawable/rounded_edittext"
             android:padding="16dp"
             android:hint="Enter the Title"
-            android:textColorHint="#80FFFFFF"
+            android:textColorHint="#800A4B4B"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:fontFamily="@font/montserrat"/>
@@ -54,7 +54,7 @@
             android:background="@drawable/rounded_edittext"
             android:padding="16dp"
             android:hint="Enter the Description"
-            android:textColorHint="#80FFFFFF"
+            android:textColorHint="#800A4B4B"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:fontFamily="@font/montserrat"
@@ -70,7 +70,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="32dp"
 
-            android:backgroundTint="#7AB2B2"
+            android:backgroundTint="#0A4B4B"
             android:elevation="4dp"
             android:fontFamily="@font/montserrat"
             android:text="Save"
